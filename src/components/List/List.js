@@ -14,7 +14,7 @@ class List extends React.Component {
     }
     static propTypes = {
         title: PropTypes.node.isRequired,
-        source: PropTypes.string.isRequired,
+        source: PropTypes.string,
         description: PropTypes.node,
         columns: PropTypes.array,
     }
