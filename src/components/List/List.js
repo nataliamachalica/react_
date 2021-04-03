@@ -12,7 +12,7 @@ import Container from '../Container/Container';
 class List extends React.Component {
     
     static propTypes = {
-      title: PropTypes.node.isRequired,
+      title: PropTypes.node,
       source: PropTypes.string,
       description: PropTypes.node,
       columns: PropTypes.array,

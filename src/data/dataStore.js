@@ -10,7 +10,7 @@ export const settings = {
     defaultIcon: 'fas fa-paw',
   },
   search: {
-    defaultText: 'Search...',
+    defaultText: 'Hello..?',
     icon: 'search',
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
@@ -91,8 +91,20 @@ export const listData = {
 const lists = [
   {
     id: 'list-1',
-    title: 'Things to do <sup>soon!</sup>',
+    title: 'Things to do <sup>asap!</sup>',
     description: 'Interesting things I want to check out!',
+    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
+  {
+    id: 'list-2',
+    title: 'Things to do <sup>soon!</sup>',
+    description: 'Interesting things I want to check out maybe!',
+    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
+  {
+    id: 'list-3',
+    title: 'Things to do <sup>not so soon!</sup>',
+    description: 'Not so interesting things I do not want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
 ];
@@ -118,8 +130,8 @@ const columns = [
   },
   {
     id: 'column-4',
-    listId: 'list-2',
-    title: 'Strange column',
+    listId: 'list-2.0',
+    title: 'Strange things',
     icon: 'question',
   },
 ];
