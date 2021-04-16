@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './List.scss';
-import Hero from '../Hero/Hero';
-import Column from '../Column/ColumnContainer';
+import Hero from '../Hero/Hero.js';
+import Column from '../Column/ColumnContainer.js';
 import PropTypes from 'prop-types';
-import {settings} from '../../data/dataStore';
+import {settings} from '../../data/dataStore.js';
 import ReactHtmlParser from 'react-html-parser';
-import Creator from '../Creator/Creator';
-import Container from '../Container/Container';
+import Creator from '../Creator/Creator.js';
+import Container from '../Container/Container.js';
 
 
 class List extends React.Component {

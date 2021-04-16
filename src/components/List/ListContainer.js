@@ -1,6 +1,6 @@
 import {connect} from 'react-redux';
 import List from './List';
-import {getColumnsForList, createActionAddColumn}  from '../../../src/redux/columnsRedux';
+import {getColumnsForList, createActionAddColumn}  from '../../../src/redux/columnsRedux.js';
 
 const mapDispatchToProps = (dispatch, props) => ({
   addColumn: title => dispatch(createActionAddColumn({

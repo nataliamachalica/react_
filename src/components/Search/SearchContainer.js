@@ -1,11 +1,11 @@
 import {connect} from 'react-redux';
-import Search from './Search';
+import Search from './Search.js';
 import {
   getSearchString,
   countVisibleCards,
   countAllCards,
   createAction_changeSearchString,
-} from '../../redux/searchStringRedux';
+} from '../../redux/searchStringRedux.js';
 
 const mapStateToProps = (state) => ({
   searchString: getSearchString(state),

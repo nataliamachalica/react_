@@ -1,5 +1,5 @@
 import {connect} from 'react-redux';
-import Home from './Home';
+import Home from './Home.js';
 
 const mapStateToProps = state => ({
   title: state.app.title,

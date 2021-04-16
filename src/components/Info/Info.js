@@ -1,7 +1,7 @@
 import React from 'react';
-import Container from '../Container/Container';
-import Hero from '../Hero/Hero';
-import {infoContents} from '../../data/dataStore';
+import Container from '../Container/Container.js';
+import Hero from '../Hero/Hero.js';
+import {infoContents} from '../../data/dataStore.js';
 
 const Info = () => (
   <Container>

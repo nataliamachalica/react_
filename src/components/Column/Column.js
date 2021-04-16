@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './Column.scss';
 import PropTypes from 'prop-types';
-import Card from '../Card/Card';
-import Creator from '../Creator/Creator';
-import Icon from '../Icon/Icon';
+import Card from '../Card/Card.js';
+import Creator from '../Creator/Creator.js';
+import Icon from '../Icon/Icon.js';
 import {settings} from '../../data/dataStore';
 
 class Column extends React.Component {

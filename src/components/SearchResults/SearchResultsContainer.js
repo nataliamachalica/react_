@@ -1,6 +1,6 @@
 import {connect} from 'react-redux';
-import SearchResults from './SearchResults';
-import {getSearchedCardsFromLists} from '../../redux/cardsRedux';
+import SearchResults from './SearchResults.js';
+import {getSearchedCardsFromLists} from '../../redux/cardsRedux.js';
 
 const mapStateToProps = (state, props) => ({
   cards: getSearchedCardsFromLists(state, props.match.params.string),
