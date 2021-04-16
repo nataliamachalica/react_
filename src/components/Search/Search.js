@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Search.scss';
 import Button from '../Button/Button.js';
 import PropTypes from 'prop-types';
-import { settings } from '../../data/dataStore.js';
+import {settings} from '../../data/dataStore.js';
 import Icon from '../Icon/Icon.js';
 import Container from '../Container/Container.js';
 import {withRouter} from 'react-router';

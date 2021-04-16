@@ -1,1 +1,5 @@
-web: http-server dist
+web:npm run server
+
+
+web: http-server dist 
+npm install web-server
