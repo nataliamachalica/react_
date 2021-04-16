@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../Creator/Creator.scss',
+import styles from '../Creator/Creator.scss';
 import Button from '../Button/Button.js';
 import PropTypes from 'prop-types';
 
