@@ -1,1 +1,1 @@
-web: https-server dist
+web: http-server dist
